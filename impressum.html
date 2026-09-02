@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Legal Notice — Besnik Ajdini</title>
+<meta name="description" id="pageDescription" content="Legal notice (Impressum) for Besnik Ajdini's portfolio website.">
+
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+<style>body{ cursor:auto; }</style>
+</head>
+<body class="legal-page">
+
+<div class="grain"></div>
+
+<nav id="nav" class="scrolled">
+  <a href="index.html" class="brand">&lt; BA /&gt;</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+    <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
+    <li><a href="index.html#projects" data-i18n="nav.projects">Projects</a></li>
+  </ul>
+  <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+    <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+    <button type="button" class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+</nav>
+
+<section class="legal-content">
+  <a href="index.html" class="legal-back" data-i18n="legal.back">← Back to Home</a>
+  <p class="eyebrow" data-i18n="legal.eyebrow">( Legal )</p>
+  <h2 data-i18n="legal.title">Legal Notice</h2>
+  <span class="legal-updated" data-i18n="legal.updated">Last updated: August 2026</span>
+
+  <h3 data-i18n="legal.s1.title">Site Owner</h3>
+  <p data-i18n="legal.s1.text">Besnik Ajdini, Aargau, Switzerland. This website is a private, non-commercial student portfolio created as part of my IT apprenticeship (IMS Aarau/Baden).</p>
+
+  <h3 data-i18n="legal.s2.title">Contact</h3>
+  <p data-i18n="legal.s2.text">Email: B.Ajdini.inf24@stud.bbbaden.ch</p>
+
+  <h3 data-i18n="legal.s3.title">Disclaimer</h3>
+  <p data-i18n="legal.s3.text">I compile the content of this site with care, but cannot guarantee that it is accurate, complete or up to date at all times. This site links to external live demos and third-party platforms (GitHub, LinkedIn); I am not responsible for the content of those external sites.</p>
+
+  <h3 data-i18n="legal.s4.title">Copyright</h3>
+  <p data-i18n="legal.s4.text">Unless otherwise noted, all texts, images and code on this site are my own work. Please do not reuse them without permission.</p>
+</section>
+
+<footer>
+  <p class="footer-big footer-big-italic" data-i18n="footer.big">Let's shape the future.</p>
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/besnik-ajdini-1a6bb539a" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/besnikajdini" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+    <a href="mailto:B.Ajdini.inf24@stud.bbbaden.ch"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+  <p class="footer-copy">© <span id="copyYear">2026</span> Besnik Ajdini · <a href="datenschutz.html" data-i18n="footer.privacy">Privacy Policy</a> · <a href="impressum.html" data-i18n="footer.legal">Legal Notice</a></p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script>
+  document.getElementById('copyYear').textContent = new Date().getFullYear();
+  const navToggle = document.getElementById('navToggle');
+  const navLinksEl = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinksEl.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    navToggle.textContent = isOpen ? '✕' : '☰';
+  });
+</script>
+</body>
+</html>
