@@ -15,7 +15,9 @@
       'projects.p2.desc': 'Business website for Niku Blendz — my own barber business. Focus on a clean layout, good readability and a modern, responsive presentation.',
       'projects.p3.desc': 'Trading simulator for practicing and testing strategies in a clear, interactive interface.',
       'projects.p4.desc': 'An open-source stock-direction predictor built on real technical indicators, news sentiment and honest, walk-forward backtesting — no inflated accuracy claims.',
+      'projects.p5.desc': "A realistic, luxury-styled trading simulator with live-feel order execution, margin & leverage, and portfolio analytics — trade like it's real, risk-free.",
       'projects.linkDemo': 'Live Demo',
+      'projects.linkGithub': 'GitHub',
 
       'about.eyebrow': '( About )',
       'about.title': 'My Journey So Far',
@@ -105,7 +107,9 @@
       'projects.p2.desc': 'Business-Website für Niku Blendz — mein eigenes Barber-Business. Fokus auf cleanem Layout, guter Lesbarkeit und einer modernen, responsiven Präsentation.',
       'projects.p3.desc': 'Trading-Simulator zum Üben und Testen von Strategien in einer übersichtlichen, interaktiven Oberfläche.',
       'projects.p4.desc': 'Ein Open-Source-Tool zur Vorhersage der Kursrichtung von Aktien, basierend auf echten technischen Indikatoren, News-Sentiment und ehrlichem Walk-Forward-Backtesting — ohne überzogene Genauigkeitsversprechen.',
+      'projects.p5.desc': 'Ein realistischer, edel gestalteter Trading-Simulator mit live-nahen Orderausführungen, Margin & Hebel sowie Portfolio-Analysen — handeln wie im echten Markt, ganz ohne Risiko.',
       'projects.linkDemo': 'Live Demo',
+      'projects.linkGithub': 'GitHub',
 
       'about.eyebrow': '( Über mich )',
       'about.title': 'Mein bisheriger Weg',
