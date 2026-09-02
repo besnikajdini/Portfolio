@@ -1,2 +1,5 @@
 # Portfolio
-My personal portfolio — projects, skills, and contact info
+My personal portfolio to showcase my projects, skills, and experience.
+
+ajdinibesnik.ch
+
